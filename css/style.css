@@ -663,7 +663,7 @@ sup {
     padding: 0;
     top: 50vh;
     width: 100%;
-    padding: 0 10%;
+    padding: 0 15%;
     -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
     -moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
     -ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
@@ -679,6 +679,18 @@ sup {
     -moz-osx-font-smoothing: grayscale;
     opacity: 1;
     visibility: visible
+}
+
+#left-side .tel-details {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    cursor: pointer;
+}
+
+.tel-details a {
+    font-size: 25px;
+
 }
 #right-side {
     background: #f2f3f7;
